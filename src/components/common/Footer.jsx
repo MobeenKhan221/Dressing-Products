@@ -80,12 +80,12 @@ function Footer() {
         </div>
         <h1
           className="showreel-heading"
-          style="
-          will-change: transform;
-          transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-            rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-          transform-style: preserve-3d;
-        "
+          style={{
+            willChange: 'transform',
+            transform:
+              'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+            transformStyle: 'preserve-3d',
+          }}
         >
           Glide Speakers Glide Speakers Glide Speakers Glide Speakers Glide Speakers Glide Speakers
         </h1>

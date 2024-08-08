@@ -8,12 +8,12 @@ function Cardssection() {
           <div className="centered-intro">
             <div className="clip">
               <h1
-                style="
-                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                opacity: 1;
-                transform-style: preserve-3d;
-              "
+                style={{
+                  transform:
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  opacity: 1,
+                  transformStyle: 'preserve-3d',
+                }}
                 className="large-heading"
               >
                 Speakers <span className="gradient-span">worth booking</span>
@@ -22,12 +22,12 @@ function Cardssection() {
             <div className="clip">
               <div
                 className="body-display large"
-                style="
-                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                transform-style: preserve-3d;
-                opacity: 1;
-              "
+                style={{
+                  transform:
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                  opacity: 1,
+                }}
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor turpis,
                 dictum a efficitur in, aliquam eget velit.
@@ -38,13 +38,13 @@ function Cardssection() {
             <div
               id="w-node-b7457600-ca7a-28f3-f002-5d720802c6e3-f5583ba2"
               data-w-id="b7457600-ca7a-28f3-f002-5d720802c6e3"
-              style="
-              transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-              opacity: 1;
-              color: rgb(255, 255, 255);
-              transform-style: preserve-3d;
-            "
+              style={{
+                transform:
+                  'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                opacity: 1,
+                color: '#fff',
+                transformStyle: 'preserve-3d',
+              }}
               className="feature-item left-item"
             >
               <div className="feature-title-wrapper">
@@ -65,12 +65,12 @@ function Cardssection() {
                 </div>
                 <div className="clip">
                   <div
-                    style="
-                    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                    opacity: 1;
-                    transform-style: preserve-3d;
-                  "
+                    style={{
+                      transform:
+                        'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                      opacity: 1,
+                      transformStyle: 'preserve-3d',
+                    }}
                     className="body-display"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor
@@ -80,24 +80,24 @@ function Cardssection() {
               </div>
               <div
                 className="circle-hover white"
-                style="
-                width: 6vw;
-                height: 6vw;
-                transform: translate3d(3vw, -3vw, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                transform-style: preserve-3d;
-              "
+                style={{
+                  width: '6vw',
+                  height: '6vw',
+                  transform:
+                    'translate3d(3vw, -3vw, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                }}
               />
             </div>
             <div
               id="w-node-_882100cf-7204-2b74-9d6c-ae5dc198e3cb-f5583ba2"
-              style="
-              transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-              opacity: 1;
-              color: rgb(255, 255, 255);
-              transform-style: preserve-3d;
-            "
+              style={{
+                transform:
+                  'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                opacity: 1,
+                color: '#fff',
+                transformStyle: 'preserve-3d',
+              }}
               className="feature-item middle-item"
             >
               <div className="feature-title-wrapper">
@@ -114,13 +114,13 @@ function Cardssection() {
               </div>
               <div
                 className="circle-hover white"
-                style="
-                width: 6vw;
-                height: 6vw;
-                transform: translate3d(3vw, -3vw, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                transform-style: preserve-3d;
-              "
+                style={{
+                  width: '6vw',
+                  height: '6vw',
+                  transform:
+                    'translate3d(3vw, -3vw, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                }}
               />
               <div className="feature-item-info">
                 <div className="clip">
@@ -128,12 +128,12 @@ function Cardssection() {
                 </div>
                 <div className="clip">
                   <div
-                    style="
-                    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                    opacity: 1;
-                    transform-style: preserve-3d;
-                  "
+                    style={{
+                      transform:
+                        'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                      opacity: 1,
+                      transformStyle: 'preserve-3d',
+                    }}
                     className="body-display"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor
@@ -144,13 +144,13 @@ function Cardssection() {
             </div>
             <div
               id="w-node-_461c4ef5-23a4-91aa-fd02-04e8ff2bdb24-f5583ba2"
-              style="
-              transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-              opacity: 1;
-              color: rgb(255, 255, 255);
-              transform-style: preserve-3d;
-            "
+              style={{
+                transform:
+                  'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                opacity: 1,
+                color: '#fff',
+                transformStyle: 'preserve-3d',
+              }}
               className="feature-item right-item"
             >
               <div className="feature-title-wrapper">
@@ -167,13 +167,13 @@ function Cardssection() {
               </div>
               <div
                 className="circle-hover white"
-                style="
-                width: 6vw;
-                height: 6vw;
-                transform: translate3d(3vw, -3vw, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                transform-style: preserve-3d;
-              "
+                style={{
+                  width: '6vw',
+                  height: '6vw',
+                  transform:
+                    'translate3d(3vw, -3vw, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                }}
               />
               <div className="feature-item-info">
                 <div className="clip">
@@ -181,12 +181,12 @@ function Cardssection() {
                 </div>
                 <div className="clip">
                   <div
-                    style="
-                    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                    opacity: 1;
-                    transform-style: preserve-3d;
-                  "
+                    style={{
+                      transform:
+                        'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                      opacity: 1,
+                      transformStyle: 'preserve-3d',
+                    }}
                     className="body-display"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor
