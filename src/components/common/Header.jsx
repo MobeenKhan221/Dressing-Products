@@ -1,9 +1,7 @@
+/* eslint-disable react/style-prop-object */
 // Init
 import React from 'react';
-import Headerimage from '../../assets/605a72f1fbb8da6b3e99af1a_Portrait001.jpg';
-import Headerimg2 from '../../assets/605a72f8b8ab6349d07d0336_Portrait002.jpg';
-import Headerimg3 from '../../assets/60593bbde727d976f2a6ff8d_arrow-right-Dark-filled(24x24)@2x.svg';
-import Headerimg4 from '../../assets/605a72fe9bbd971a808182ae_Portrait003.jpg';
+
 // Component
 export default function Header() {
   return (
@@ -65,7 +63,7 @@ export default function Header() {
                   <div className="quick-list-image-hover quick-list" style="width: 0px">
                     <div
                       style="
-                   
+                      background-image: url('https://assets.website-files.com/60593a2037760a299a3ee0ec/605a72f1fbb8da6b3e99af1a_Portrait001.jpg');
                       transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1)
                         rotateX(0deg) rotateY(0deg) rotateZ(0deg)
                         skew(0deg, 0deg);
@@ -74,9 +72,7 @@ export default function Header() {
                       display: none;
                     "
                       className="speaker-image quick-list"
-                    >
-                      <img src={Headerimage} alt="" />
-                    </div>
+                    />
                   </div>
                 </a>
               </div>
@@ -103,7 +99,7 @@ export default function Header() {
                   <div className="quick-list-image-hover quick-list" style="width: 0px">
                     <div
                       style="
-                      // background-image: url('https://assets.website-files.com/60593a2037760a299a3ee0ec/605a72f8b8ab6349d07d0336_Portrait002.jpg');
+                      background-image: url('https://assets.website-files.com/60593a2037760a299a3ee0ec/605a72f8b8ab6349d07d0336_Portrait002.jpg');
                       transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1)
                         rotateX(0deg) rotateY(0deg) rotateZ(0deg)
                         skew(0deg, 0deg);
@@ -112,9 +108,7 @@ export default function Header() {
                       display: none;
                     "
                       className="speaker-image quick-list"
-                    >
-                      <img src={Headerimg2} alt="" />
-                    </div>
+                    />
                   </div>
                 </a>
               </div>
@@ -126,7 +120,7 @@ export default function Header() {
                 >
                   <h3>Sam Pann</h3>
                   <img
-                    src={Headerimg3}
+                    src="./Webflow Path One new_files/60593bbde727d976f2a6ff8d_arrow-right-Dark-filled(24x24)@2x.svg"
                     loading="lazy"
                     width="24"
                     alt=""
@@ -141,7 +135,7 @@ export default function Header() {
                   <div className="quick-list-image-hover quick-list" style="width: 0px">
                     <div
                       style="
-                      // background-image: url('https://assets.website-files.com/60593a2037760a299a3ee0ec/605a72fe9bbd971a808182ae_Portrait003.jpg');
+                      background-image: url('https://assets.website-files.com/60593a2037760a299a3ee0ec/605a72fe9bbd971a808182ae_Portrait003.jpg');
                       transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1)
                         rotateX(0deg) rotateY(0deg) rotateZ(0deg)
                         skew(0deg, 0deg);
@@ -150,9 +144,7 @@ export default function Header() {
                       display: none;
                     "
                       className="speaker-image quick-list"
-                    >
-                      <img src={Headerimg4} alt="" />
-                    </div>
+                    />
                   </div>
                 </a>
               </div>

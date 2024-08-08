@@ -1,6 +1,6 @@
 /* Importing all CSS files */
-@import url('./Header.css');
-
+/* @import url('./Header.css'); */
+@import './style.css';
 /* Defaults */
 * {
   padding: 0;

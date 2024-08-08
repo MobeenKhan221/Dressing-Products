@@ -8,7 +8,7 @@ import Home from '../containers/Home';
 function Index() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
     </Routes>
   );
 }
